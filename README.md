@@ -2,6 +2,15 @@
 
 Public website and authenticated customer portal for **J&K Cabinetry CT**, a wholesale cabinetry platform for dealers, contractors, showrooms, and other approved business partners. This application handles marketing pages, product browsing, registration, login, cart/checkout, and the customer dashboard (orders, profile, messaging, settings).
 
+## Live URLs
+
+| Service | URL |
+|---------|-----|
+| **This app** (customer frontend) | [https://jkcabinetryct.com/](https://jkcabinetryct.com/) |
+| Admin dashboard | [https://dashboard.jkcabinetryct.com/](https://dashboard.jkcabinetryct.com/) |
+| Backend API | [https://api.jkcabinetryct.com/](https://api.jkcabinetryct.com/) |
+| API documentation | [https://api.jkcabinetryct.com/api/v1/docs](https://api.jkcabinetryct.com/api/v1/docs) |
+
 This repo is the **customer-facing Next.js frontend**. It works together with:
 
 | Repository | Role |
@@ -97,8 +106,8 @@ NEXT_PUBLIC_SOCKET_URL=https://api.jkcabinetryct.com
 
 ```bash
 # Clone the repository
-git clone <repository-url>
-cd jk-cabinetryct
+git clone https://github.com/reazulislamreaz/jk-cabinetryct-frontend.git
+cd jk-cabinetryct-frontend
 
 # Install dependencies
 npm install
