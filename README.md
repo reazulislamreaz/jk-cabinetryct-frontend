@@ -65,7 +65,7 @@ This repo is the **customer-facing Next.js frontend**. It works together with:
 
 ## Environment variables
 
-Create a `.env` file in the project root (see `.env` example below). All public vars must be prefixed with `NEXT_PUBLIC_`.
+Create a `.env` file in the project root (copy from `.env.example`).
 
 | Variable | Description | Example (local) |
 |----------|-------------|-----------------|
@@ -103,8 +103,9 @@ cd jk-cabinetryct
 # Install dependencies
 npm install
 
-# Copy and configure environment (create .env in project root)
-# Use the example values in the Environment variables section below
+# Copy and configure environment
+cp .env.example .env
+# Edit .env with your API and socket URLs
 
 # Start the backend first (separate repo)
 # cd ../jk-cabinetryct-backend && npm run dev
